@@ -49,7 +49,7 @@ class Home:
 ╚╗╔╝    ║║╚═╗║╚╗╔╝║╚╝║║║║║ ║
  ║║ ║║║ ║║  ║║ ║║ ║╔╗║║║║║ ║
  ╚╝ ╚═╝ ╚╝  ╚╝ ╚╝ ╚╝╚╝╚╝╚══╝
-                  © Developer: Nguyễn Anh Tú
+                  © Developer: Nguyễn Anh Tú 💕
 """)
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
