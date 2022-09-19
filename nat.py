@@ -46,7 +46,7 @@ class Home:
 	def home(self): 
 		print(f"""{Color.LG}
 
-def title():
+print def title():
     stdout.write("                                                                                          \n")
     stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"╔🌸 IM AM ATU 🌸╗                 \n")
     stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"╠NGUYỄN ANH TÚ╣                 \n")
