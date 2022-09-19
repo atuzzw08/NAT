@@ -45,11 +45,14 @@ class Home:
 
 	def home(self): 
 		print(f"""{Color.LG}
-╔══╗    ╔╗╔══╗╔══╗╔╗╔╗╔╗╔══╗🌸 Atu cutis1tg<3
-╚╗╔╝    ║║╚═╗║╚╗╔╝║╚╝║║║║║ :) 
- ║║ ║║║ ║║  ║║ ║║ ║╔╗║║║║║ ║ 
- ╚╝ ╚═╝ ╚╝  ╚╝ ╚╝ ╚╝╚╝╚╝╚══╝
-                  © Developer: Nguyễn Anh Tú :(!
+╔══╗    ╔╗╔══╗╔══╗╔╗╔╗╔╗╔══╗🤍 Atu cutis1tg<3
+╚╗╔╝    ║║╚═╗║╚╗╔╝║╚╝║║║║║ :(
+ ║║ ║║║ ║║  ║║ ║║ ║╔╗║║║║║ ║ Nguyễn Anh Tú Cuti Vay Shao 😘
+ ╚╝ ╚═╝ ╚╝  ╚╝ ╚╝ ╚╝╚╝╚╝╚══╝ 208 ?
+[] atu x ddos []
+[] ☎️ CONTACT / SMS 0564682944📞 []
+     🌉🌇🎆🌌🌠🗾 
+                             © Developer: 🌸 atu x ddos :(🌸
 """)
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
@@ -59,13 +62,13 @@ class Home:
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+"🧸 "+Color.LR+"["+Color.LG+"atu cuti"+Color.LB+" @ "+Color.LG+"1710"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
+			sys.stdout.write(Color.LB+"🤭 "+Color.LR+"["+Color.LG+"atu cuti"+Color.LB+" @ "+Color.LG+"1710"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
-					url = str(input(f"{Color.LG} :> URL: "+Color.RESET))
-					floodtime = int(input(f"{Color.LG} :> Time: "+Color.RESET))
-					reqs = int(input(f"{Color.LG} :> Reqs: "+Color.RESET))
+					url = str(input(f"{Color.LG} cc URL: "+Color.RESET))
+					floodtime = int(input(f"{Color.LG} cc Time: "+Color.RESET))
+					reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
 					for i in range(200):
 						print (f"{Color.LG}Starting Attack To ➠ {Color.LG}" + url)
 						print (f"{Color.LR}Starting Attack To ➠ {Color.LR}" + url)
