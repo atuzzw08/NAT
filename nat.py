@@ -47,14 +47,28 @@ class Home:
 		print(f"""{Color.LG}
 
 ________________________________________________________🤍
-🚀[ I Am Atu ] 🤍                                      ]
-             🌸 Nguyễn Anh Tú 🌸                       ]
-               Wellcome To My Tool DDos Attack         ]
-                    Contact / Dev    @ins _17th10.zzw  ]
+                           🚀 ATU x DDOS 🚀
+  
+ 🌸 Tác Giả : Nguyễn Anh Tú 🌸
+               Wellcome To My Tool DDos Attack Limited ⚡️
+                  Contact / Dev    @ins _17th10.zzw
 _______________________________________________________] 🫶 atu cutis1tg </3 💕
+Ї̅̐̊̐̊̐̊̊̊̐̊̊̐̊̐̊̐̊ї̅̐̊̐ї̅̐̊̐̊̐ї̅̐̊̐̊̐̊ї̅̐̊̐̊̐̊̐ї̅̐̊̐̊̐̊ї̅̐̊̐̊̐ї̐̊̐̊ї̅̐̊̐༿⃦⃒ི⃔⃕༾ྀї̅̐̊̐ї̅̐̊̐̊̐̊̊̊̐̊̊̐̊̐̊̐̊ї̅̐̊̐༿⃦⃒ི⃔⃕༾ྀї̅̐̊̐ї̅̐̊̐̊̐ї̅̐̊̐̊̐̊ї̅̐̊̐̊̐̊̐ї̅̐̊̐̊̐̊ї̅̐̊̐̊̐ї̐̊̐̊ї̅̐̊̐ї̅̐̊ї̅̐̊̐̊̐̊̊̊̐̊̊̐̊̐̊̐̊
+                         © Developer: Nguyễn Anh Tú ?
+............(¯`'•.
+..............(¯'•(¯'•............_/)/)
+...............(¯'•.(¯'•.......((.....((
+................(¯`'•(¯'•...((.)..(. ‘ /)
+.................(¯`'•.(¯'((.)....|\_/
+.....,,,~”¯¯¯`'¯(_¸´(_.)......|
+...(((./...........................)__
+..((((.\......),,...........(...../__`\
+..))))..\ . .//...¯¯¯¯¯¯¯' \.../... / /
+.(((...../ .// .............. | ./.....\/
+.))).....| ||.................| |...........♥
+((........) \\.................) \...........
+.^^^^.""'"'.^^^^^^^..""".^^^^.""
 
-                       © Developer: Nguyễn Anh Tú ?
-""")
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
 		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
@@ -63,7 +77,7 @@ _______________________________________________________] 🫶 atu cutis1tg </3 �
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+":( "+Color.LR+"["+Color.LG+"atu cuti"+Color.LB+" đấm tiếp đi nhóc "+Color.LG+"1710"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
+			sys.stdout.write(Color.LB+":( "+Color.LR+"["+Color.LG+"Zzw"+Color.LB+" Atu Cuti ? "+Color.LG+":("+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
