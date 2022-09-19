@@ -46,30 +46,14 @@ class Home:
 	def home(self): 
 		print(f"""{Color.LG}
 
-#endregion
+________________________________________________________🤍
+🚀[ I Am Atu ] 🤍                                      ]
+             🌸 Nguyễn Anh Tú 🌸                       ]
+               Wellcome To My Tool DDos Attack         ]
+                    Contact / Dev    @ins _17th10.zzw  ]
+_______________________________________________________] 🫶 atu cutis1tg </3 💕
 
-def clear(): 
-    if name == 'nt': 
-        system('cls')
-    else: 
-        system('clear')
-##############################################################################################
- def title():
-    stdout.write("                                                                                          \n")
-    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"╔🌸 IM AM ATU 🌸╗                 \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"╠NGUYỄN ANH TÚ╣                 \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"_______________                \n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX            +"        ══╦═════════════════════════════════╦══\n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX+"║ "+Fore.LIGHTWHITE_EX   +"        Welcome To The Main Screen Of atu  "+Fore.LIGHTCYAN_EX  +"       ║\n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX+"║ "+Fore.LIGHTWHITE_EX   +"          Type [help] to see the Commands    "+Fore.LIGHTCYAN_EX +"       ║\n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX+"║ "+Fore.LIGHTWHITE_EX   +"         Contact Dev - ins _17th10zzw   "+Fore.LIGHTCYAN_EX +"        ║\n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX+"╚═════════════════════════════════════════════════════╝\n")
-    stdout.write("\n")
-##############################################################################################
-🌸 atu x ddos 🌸
-👍 Facebook https://www.facebook.com/17th10zzw.user 
-            © Developer: Nguyễn Anh Tú ?
+                       © Developer: Nguyễn Anh Tú ?
 """)
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
@@ -79,7 +63,7 @@ def clear():
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+"🤭 "+Color.LR+"["+Color.LG+"atu cuti"+Color.LB+" @ "+Color.LG+"1710"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
+			sys.stdout.write(Color.LB+":( "+Color.LR+"["+Color.LG+"atu cuti"+Color.LB+" đấm tiếp đi nhóc "+Color.LG+"1710"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
