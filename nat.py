@@ -71,7 +71,7 @@ _______________________________________________________] 🫶 atu cutis1tg </3 �
 
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
-		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
+		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP GET") Đấm Web
 		print(Color.LR+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" BYPASS")
 		print(Color.LR+"["+Color.LG+"00"+Color.LR+"]"+Color.LC+" THOÁT")
 		print("\n")
