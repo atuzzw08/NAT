@@ -51,14 +51,6 @@ class Home:
  ╚╝ ╚═╝ ╚╝  ╚╝ ╚╝ ╚╝╚╝╚╝╚══╝
                   © Developer: Nguyễn Anh Tú :(!
 """)
-▇▇◤▔▔▔▔▔▔▔◥▇▇
-▇▇▓◥▇◣┊◢▇◤▓▇▇
-▇▇▓▃▆▅▎▅▆▃▓▇▇
-▇▇▓╱▔▕▎▔▔╲▓▇▇
-▇▇◣◣▃▅▎▅▃◢◢▇▇
-▇▇▇◣◥▅▅▅◤◢▇▇▇
-▇▇▇▇◣╲▇╱◢▇▇▇▇
-▇▇▇▇▇◣▇◢▇▇▇▇▇
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
 		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
