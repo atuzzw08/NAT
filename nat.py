@@ -45,12 +45,21 @@ class Home:
 
 	def home(self): 
 		print(f"""{Color.LG}
-╔══╗    ╔╗╔══╗╔══╗╔╗╔╗╔╗╔══╗
-╚╗╔╝    ║║╚═╗║╚╗╔╝║╚╝║║║║║ ║
- ║║ ║║║ ║║  ║║ ║║ ║╔╗║║║║║ ║
+╔══╗    ╔╗╔══╗╔══╗╔╗╔╗╔╗╔══╗🌸 Atu cutis1tg<3
+╚╗╔╝    ║║╚═╗║╚╗╔╝║╚╝║║║║║ :) 
+ ║║ ║║║ ║║  ║║ ║║ ║╔╗║║║║║ ║ 
  ╚╝ ╚═╝ ╚╝  ╚╝ ╚╝ ╚╝╚╝╚╝╚══╝
-                  © Developer: Nguyễn Anh Tú 💕
+                  © Developer: Nguyễn Anh Tú :(!
 """)
+
+♤▇▇◤▔▔▔▔▔▔▔◥▇▇♤   Đ𝑎̂́𝑚 𝑊𝑒𝑏 𝐶𝑎́𝑖 𝐶𝑜𝑛 𝐶𝑎̣̆𝑐 Đ𝑗𝑡 𝐶𝑜𝑛 𝑀𝑒̣ 𝑀𝑎̀𝑦 𝑇ℎ𝑎̆̀𝑛𝑔 𝑇𝑢́ 𝐻𝑎̆́𝑐 𝐶𝑜̛ 𝑇𝑟𝑢̀𝑚 𝑅𝑜̂̀𝑖 👍
+♤▇▇▓◥▇◣┊◢▇◤▓▇▇♤
+♤▇▇▓▃▆▅▎▅▆▃▓▇▇♤
+♤▇▇▓╱▔▕▎▔▔╲▓▇▇♤
+♤▇▇◣◣▃▅▎▅▃◢◢▇▇♤
+♤▇▇▇◣◥▅▅▅◤◢▇▇▇♤
+♤▇▇▇▇◣╲▇╱◢▇▇▇▇♤
+♤▇▇▇▇▇◣▇◢▇▇▇▇▇♤
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
 		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
@@ -59,7 +68,7 @@ class Home:
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+"🚀 "+Color.LR+"["+Color.LG+"Nguyễn Anh Tú"+Color.LB+" @ "+Color.LG+"208"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
+			sys.stdout.write(Color.LB+"🧸 "+Color.LR+"["+Color.LG+"atu cuti"+Color.LB+" @ "+Color.LG+"1710"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
@@ -174,6 +183,6 @@ def main():
 
 if __name__ == '__main__':
 	commands = f"""HOME: Quay Lại Trang Đầu\nREFRESH: Làm Mới Menu\nCLEAN: Xoá Tất Cả\nEXIT: Thoát\nSTOP: Ngừng DDoS\nCONTACT: Contact/Hỗ Trợ"""
-	contact = f"""Facebook: https://www.facebook.com/ebeecuti208zzw\nZalo: 0386311853"""
+	contact = f"""Facebook: https://www.facebook.com/17th10zzw.user\nZalo: 0386311853"""
 	NAT_Tool = Home(commands, contact)
 	main()
