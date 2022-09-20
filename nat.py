@@ -57,11 +57,10 @@ ________________________________________________________🤍
 _______________________________________________________] 🫶 atu cutis1tg <3
                          © Developer: Nguyễn Anh Tú ?
 
-		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET")
-		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
-		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
-		print(Color.LR+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" BYPASS")
-		print(Color.LR+"["+Color.LG+"00"+Color.LR+"]"+Color.LC+" THOÁT")
+		print(Color.LB+"["+Color.LY+"01"+Color.LR+"]"+Color.LC+" SOCKET")		print(Color.LB+"["+Color.LY+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
+		print(Color.LB+"["+Color.LY+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
+		print(Color.LB+"["+Color.LY+"04"+Color.LR+"]"+Color.LC+" BYPASS")
+		print(Color.LB+"["+Color.LY+"00"+Color.LR+"]"+Color.LC+" THOÁT")
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
