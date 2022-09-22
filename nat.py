@@ -46,35 +46,37 @@ class Home:
 	def home(self): 
 		print(f"""{Color.LG}
 
-________________________________________________________🤍
-                           🚀 ATU x DDOS 🚀
-  
- 🌸 Dev : Nguyễn Anh Tú 🌸
-               Wellcome To My Tool DDos Attack Limited ⚡️
-          ☎️ CONTACT / SMS 0564682944 📞
-              Facebook https://www.facebook.com/17th10zzw.user
-
-_______________________________________________________] 🫶 atu cutis1tg <3
-                         © Developer: Nguyễn Anh Tú ?
-
-		print(Color.LB+"["+Color.LY+"01"+Color.LR+"]"+Color.LC+" SOCKET")		print(Color.LB+"["+Color.LY+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
-		print(Color.LB+"["+Color.LY+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
-		print(Color.LB+"["+Color.LY+"04"+Color.LR+"]"+Color.LC+" BYPASS")
-		print(Color.LB+"["+Color.LY+"00"+Color.LR+"]"+Color.LC+" THOÁT")
+                ┌╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌  ┐ 
+         🚀 Atu x DDoS 🚀                    󰦅 󰟗
+󰦐    󰦊    󰥰    󰟡    󰟶    󰟻
+└╌╌╌ ╌╌ ╌╌ ╌ ╌ ╌ ╌ ╌┘ 
+╔══╗   ╔╗╔══╗╔══╗╔╗╔╗╔╗╔══╗🤍 Atu cutis1tg<3
+╚╗╔╝    ║║╚═╗║╚╗╔╝║╚╝║║║║║ :(
+ ║║ ║║║ ║║  ║║ ║║ ║╔╗║║║║║ ║       
+(    Nguyễn Anh Tú Cuti ? )
+ ╚╝ ╚═╝ ╚╝  ╚╝ ╚╝ ╚╝╚╝╚╝╚══╝ ᰔᩚ 🌸 T O O L BY ATU CUTI 🌸
+  ╠═════════════════════════════════════════════════════╣
+  ╚═════════════════════════════════════════════════════
+""")
+		print(Color.LG+"["+Color.LY+"01"+Color.LR+"]"+Color.LC+" SOCKET")
+		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
+		print(Color.LG+"["+Color.LR+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
+		print(Color.LY+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" BYPASS")
+		print(Color.LR+"["+Color.LR+"00"+Color.LR+"]"+Color.LC+" THOÁT")
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+":( "+Color.LR+"["+Color.LG+"Zzw"+Color.LB+" Atu Cuti ? "+Color.LG+":("+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
+			sys.stdout.write(Color.LB+"🐺 "+Color.LR+"["+Color.LG+"Atu X DDos"+Color.LB+" Nguyen Anh Tu :( "+Color.LG+"</3 "+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
-					url = str(input(f"{Color.LG} cc URL: "+Color.RESET))
-					floodtime = int(input(f"{Color.LG} cc Time: "+Color.RESET))
-					reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
+					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
+					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
+					reqs = int(input(f"{Color.LG} :) Reqs: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Sập Web Cặc Rồi Hahaaa ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Sập Web Cặc Rồi Hahaaa ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Sập Web Cặc Rồi Hahaaa ➠ {Color.LY}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LG}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LR}" + url)
+						print (f"{Color.lR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -86,9 +88,9 @@ _______________________________________________________] 🫶 atu cutis1tg <3
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Sập Web Cặc Rồi Hahaaa ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Sập Web Cặc Rồi Hahaaa ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Sập Web Cặc Rồi Hahaaa ➠ {Color.LY}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LG}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LR}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -100,9 +102,9 @@ _______________________________________________________] 🫶 atu cutis1tg <3
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Sập Web Cặc Rồi Hahaaa ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Sập Web Cặc Rồi Hahaaa ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Sập Web Cặc Rồi Hahaaa ➠ {Color.LY}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LG}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LR}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -114,9 +116,9 @@ _______________________________________________________] 🫶 atu cutis1tg <3
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Sập Web Cặc Rồi Hahaaa ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Sập Web Cặc Rồi Hahaaa ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Sập Web Cặc Rồi Hahaaa ➠ {Color.LY}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LG}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LR}" + url)
+						print (f"{Color.LR}Chết Con Mẹ Mày Đi Web Cặc Rác 👍 {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
