@@ -73,7 +73,7 @@ class Home:
 					url = str(input(f"{Color.LG} cc URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} cc Time: "+Color.RESET))
 					reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
-					for i in range(200): Start DDoS...
+					for i in range(200):
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
@@ -87,7 +87,7 @@ class Home:
 				try:
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-					for i in range(200): Start DDoS...
+					for i in range(200):
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
@@ -101,7 +101,7 @@ class Home:
 				try:
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-					for i in range(200): Start DDoS...
+					for i in range(200):
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
@@ -115,7 +115,7 @@ class Home:
 				try:
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-					for i in range(200): Start DDoS...
+					for i in range(200):
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
