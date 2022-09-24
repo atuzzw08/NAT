@@ -46,46 +46,37 @@ class Home:
 	def home(self): 
 		print(f"""{Color.LG}
 
-                ┌╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌  ┐ 
-         🚀 Zxx x DDoS 🚀                    󰦅 󰟗
-󰦐    󰦊    󰥰    󰟡    󰟶    󰟻
-└╌╌╌ ╌╌ ╌╌ ╌ ╌ ╌ ╌ ╌┘ 
 
-      ::::::::: :::    ::: :::    :::           :::    :::           :::::::::  :::::::::   ::::::::   ::::::::               ::: ::::::::::: ::::::::::: :::      ::::::::  :::    ::: 
-          :+:  :+:    :+: :+:    :+:           :+:    :+:           :+:    :+: :+:    :+: :+:    :+: :+:    :+:            :+: :+:   :+:         :+:   :+: :+:   :+:    :+: :+:   :+:   
-        +:+    +:+  +:+   +:+  +:+             +:+  +:+            +:+    +:+ +:+    +:+ +:+    +:+ +:+                  +:+   +:+  +:+         +:+  +:+   +:+  +:+        +:+  +:+     
-      +#+      +#++:+     +#++:+               +#++:+             +#+    +:+ +#+    +:+ +#+    +:+ +#++:++#++          +#++:++#++: +#+         +#+ +#++:++#++: +#+        +#++:++       
-    +#+      +#+  +#+   +#+  +#+             +#+  +#+            +#+    +#+ +#+    +#+ +#+    +#+        +#+          +#+     +#+ +#+         +#+ +#+     +#+ +#+        +#+  +#+       
-  #+#      #+#    #+# #+#    #+#           #+#    #+#           #+#    #+# #+#    #+# #+#    #+# #+#    #+#          #+#     #+# #+#         #+# #+#     #+# #+#    #+# #+#   #+#       
-######### ###    ### ###    ###           ###    ###           #########  #########   ########   ########           ###     ### ###         ### ###     ###  ########  ###    ###       
-
-  ╚═══════════════════════════════════════════
-/ \__/|/  __// \  /|/ \ /\
-| |\/|||  \  | |\ ||| | ||
-| |  |||  /_ | | \||| \_/|
-\_/  \|\____\\_/  \|\____/        Dev Nguyễn Anh Tú :(               
-
-├─────────────────────────────────────────────┤
-│print(Color.LG+"["+Color.LY+"01"+Color.LR+"]"+Color.LC+" SOCKET")      │
-│print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")   │
-│print(Color.LG+"["+Color.LR+"03"+Color.LR+"]"+Color.LC+" HTTP GET")    │
-│print(Color.LY+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" BYPASS")      │
-│Print(Color.LR+"["+Color.LR+"00"+Color.LR+"]"+Color.LC+" OUT")         │         
-├──────────────────────────────────────────── │
+┌╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌  ┐ 󰟗󰦐 󰦊 󰥰 󰟡
+ 🚀 Zxx x DDoS 🚀
+└╌╌╌ ╌╌ ╌╌ ╌ ╌ ╌ ╌ ╌┘
+███████╗██╗  ██╗██╗  ██╗    ██╗  ██╗    ██████╗ ██████╗  ██████╗ ███████╗     █████╗ ████████╗████████╗ █████╗  ██████╗██╗  ██╗
+╚══███╔╝╚██╗██╔╝╚██╗██╔╝    ╚██╗██╔╝    ██╔══██╗██╔══██╗██╔═══██╗██╔════╝    ██╔══██╗╚══██╔══╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝
+  ███╔╝  ╚███╔╝  ╚███╔╝      ╚███╔╝     ██║  ██║██║  ██║██║   ██║███████╗    ███████║   ██║      ██║   ███████║██║     █████╔╝ 
+ ███╔╝   ██╔██╗  ██╔██╗      ██╔██╗     ██║  ██║██║  ██║██║   ██║╚════██║    ██╔══██║   ██║      ██║   ██╔══██║██║     ██╔═██╗ 
+███████╗██╔╝ ██╗██╔╝ ██╗    ██╔╝ ██╗    ██████╔╝██████╔╝╚██████╔╝███████║    ██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██
+                         
+ © Developer: Nguyễn Anh Tú 🤍
+""")
+		print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LC+" SOCKET")
+		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
+		print(Color.LG+"["+Color.LY+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
+		print(Color.LR+"["+Color.LR+"04"+Color.LR+"]"+Color.LC+" BYPASS")
+		print(Color.LY+"["+Color.LB+"00"+Color.LR+"]"+Color.LC+" OUT")
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+"🐺 "+Color.LR+"["+Color.LG+"^^"+Color.LB+" Zxx X DDoS "+Color.LG+"</3 "+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
+			sys.stdout.write(Color.LB+"^^ "+Color.LR+"["+Color.LG+"Zzw x DDoS"+Color.LB+" ? "+Color.LG+"1710"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
-					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
-					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-					reqs = int(input(f"{Color.LG} :) Reqs: "+Color.RESET))
-					for i in range(200):Start Ddos ...
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LG}" + url)
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LR}" + url)
-						print (f"{Color.lR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LY}" + url)
+					url = str(input(f"{Color.LG} cc URL: "+Color.RESET))
+					floodtime = int(input(f"{Color.LG} cc Time: "+Color.RESET))
+					reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
+					for i in range(200): Start DDoS...
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -96,10 +87,10 @@ class Home:
 				try:
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-					for i in range(200):Start Ddos ...
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LG}" + url)
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LR}" + url)
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LY}" + url)
+					for i in range(200): Start DDoS...
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -110,10 +101,10 @@ class Home:
 				try:
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-					for i in range(200):Start Ddos ...
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LG}" + url)
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LR}" + url)
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LY}" + url)
+					for i in range(200): Start DDoS...
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -124,10 +115,10 @@ class Home:
 				try:
 					url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-					for i in range(200):Start Ddos ...
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LG}" + url)
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LR}" + url)
-						print (f"{Color.LR}Chết Con Mẹ Mày Web Cặc Lồn ⇝ {Color.LY}" + url)
+					for i in range(200): Start DDoS...
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -190,6 +181,6 @@ def main():
 
 if __name__ == '__main__':
 	commands = f"""HOME: Quay Lại Trang Đầu\nREFRESH: Làm Mới Menu\nCLEAN: Xoá Tất Cả\nEXIT: Thoát\nSTOP: Ngừng DDoS\nCONTACT: Contact/Hỗ Trợ"""
-	contact = f"""Facebook: https://www.facebook.com/17th10xxx
+	contact = f"""Facebook: https://www.facebook.com/17th10xxx\nProfile: """
 	NAT_Tool = Home(commands, contact)
 	main()
