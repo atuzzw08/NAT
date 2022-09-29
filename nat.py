@@ -56,10 +56,10 @@ class Home:
  ███╔╝   ██╔██╗  ██╔██╗      ██╔██╗     ██║  ██║██║  ██║██║   ██║╚════██║    ██╔══██║   ██║      ██║   ██╔══██║██║     ██╔═██╗ 
 ███████╗██╔╝ ██╗██╔╝ ██╗    ██╔╝ ██╗    ██████╔╝██████╔╝╚██████╔╝███████║    ██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██
                          
- © Developer: Nguyễn Anh Tú 🤍
+ © Developer: Nguyễn Anh Tú 𓅋   :(
 """)
-		print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LC+" SOCKET")
-		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" GET FLOOD")
+		print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LC+" Layer4")
+		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" Layer7")
 		print(Color.LG+"["+Color.LY+"03"+Color.LR+"]"+Color.LC+" HTTP GET")
 		print(Color.LR+"["+Color.LR+"04"+Color.LR+"]"+Color.LC+" BYPASS")
 		print(Color.LY+"["+Color.LB+"00"+Color.LR+"]"+Color.LC+" OUT")
@@ -75,8 +75,8 @@ class Home:
 					reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
 					for i in range(200):
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
-						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
-						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -89,8 +89,8 @@ class Home:
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
-						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
-						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -103,8 +103,8 @@ class Home:
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
-						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
-						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -117,8 +117,8 @@ class Home:
 					floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
 					for i in range(200):
 						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
-						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LR}" + url)
-						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LY}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
+						print (f"{Color.LR}Starting DDos Attack ♪ {Color.LG}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
