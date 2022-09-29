@@ -58,10 +58,10 @@ class Home:
                          
  © Developer: Nguyễn Anh Tú 𓅋   :(
 """)
-		print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LC+" Layer4")
-		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" Layer7")
-		print(Color.LG+"["+Color.LY+"03"+Color.LR+"]"+Color.LC+" DDoS Attack")
-		print(Color.LR+"["+Color.LR+"04"+Color.LR+"]"+Color.LC+" DDoS Plus")
+		print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LB+" Layer4")
+		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LY+" Layer7")
+		print(Color.LG+"["+Color.LY+"03"+Color.LR+"]"+Color.LB+" DDoS Attack")
+		print(Color.LR+"["+Color.LR+"04"+Color.LR+"]"+Color.LG+" DDoS Plus")
 		print(Color.LY+"["+Color.LB+"00"+Color.LR+"]"+Color.LC+" OUT")
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
