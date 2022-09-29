@@ -196,7 +196,7 @@ def l4(self):
 |_|  (_)  `-'   `---(_) (__)`--'(__)`--'  )---'  `----'      
                                          (_)                 
 """)
-		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET: Slow HTTP/1.1 socket flood (JS)")
+		print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LC+" Layer8")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" HTTP1: TLS HTTP/1.1 GET flood (JS)")
 		print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP2: TLS HTTP/2 GET flood (JS)")
 		print(Color.LR+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" CRINGE: Powerful Method Target Maybe die from Cringe (JS)")
