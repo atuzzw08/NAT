@@ -75,8 +75,7 @@ class Home:
                     url = str(input(f"{Color.LG} cc URL: "+Color.RESET))
                     floodtime = int(input(f"{Color.LG} cc Time: "+Color.RESET))
                     reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
-                    ATU_TOOL.styleText(" Djt Mẹ Pay Web...\n")
-                    for i in range(150):
+                    for i in range(200):
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
@@ -90,8 +89,7 @@ class Home:
                 try:
                     url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
                     floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-                    ATU_TOOL.styleText(" Djt Mẹ Pay Web...\n")
-                    for i in range(150):
+                    for i in range(200):
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
@@ -105,7 +103,6 @@ class Home:
                 try:
                     url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
                     floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-                    ATU_TOOL.styleText(" Djt Mẹ Pay Web...\n")
                     for i in range(200):
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
@@ -120,8 +117,7 @@ class Home:
                 try:
                     url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
                     floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
-                    ATU_TOOL.styleText(" Djt Mẹ Pay Web...\n")
-                    for i in range(150):
+                    for i in range(200):
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
