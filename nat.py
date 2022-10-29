@@ -104,10 +104,6 @@ class Home:
                     url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
                     floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
                     for i in range(200):
-                       print (f"{Color.LR}Server Error Can Access Lost Connection 
-                       print (f"{Color.LR}Server Error Can Access Lost Connection
-                       print (f"{Color.LR}Server Error Can Access Lost Connection
-                       print (f"{Color.LR}Server Error Can Access Lost Connection
                        print (f"{Color.LR}Server Error Can Access Lost Connection
                         time.sleep(0.01)
                     with open("nat/http.txt", 'w') as p:
