@@ -88,11 +88,11 @@ class Home:
                     floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
                     reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
                     for i in range(200):
-                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
-                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
-                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
-                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
-                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ❣️ {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ❣️ {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ❣️ {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ❣️ {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ❣️ {Color.LG}" + url)
                         time.sleep(0.01)
                     with open("nat/http.txt", 'w') as p:
                         p.write(httpx.get(http_proxy).text)
@@ -104,16 +104,16 @@ class Home:
                     url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
                     floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
                     for i in range(200):
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
                         time.sleep(0.02)
                     with open("nat/http.txt", 'w') as p:
                         p.write(httpx.get(http_proxy).text)
@@ -125,9 +125,9 @@ class Home:
                     url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
                     floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
                     for i in range(200):
-                        print (f"{Color.LR}Die Die Die Die Die Die Die Die !  {Color.LG}" + url)
-                        print (f"{Color.LR}Die Die Die Die Die Die Die Die !  {Color.LG}" + url)
-                        print (f"{Color.LR}Die Die Die Die Die Die Die Die !  {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die 🚀 {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die 🚀 {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die 🚀  {Color.LG}" + url)
                         time.sleep(0.01)
                     with open("nat/http.txt", 'w') as p:
                         p.write(httpx.get(http_proxy).text)
