@@ -1,4 +1,4 @@
-<h1 align="center">🌸 JWKFRV17 🌸</h1>
+<h1 align="center"> JWKFRV17 </h1>
 <em><h5 align="center">(Language: Python, Shell)</h5></em>
   
 <p align="center"><img src="https://i.imgur.com/E2xHJTq.jpg" width="600" height="200" alt="Script"></p>
@@ -7,18 +7,19 @@
 
 * SOCKET FLOOD
 * GET FLOOD
+* HTTP GET
 * BYPASS
 
-# Cách Setup
+# Setup
 
-* Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
+* Google Cloud Shell Editor
 
 * ```git clone https://github.com/jfrv17/NAT.git```
 * ```cd NAT```
 * ```sh setup.sh```
 * ```python nat.py```
 
-# Cách Vào Tool
+# Used Tool
 
 * ```cd NAT```
 * ```python nat.py```
