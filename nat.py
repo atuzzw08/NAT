@@ -99,9 +99,9 @@ class Home:
 					url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LR}Unable to Access Server 🐉 {Color.LR}" + url)
-						print (f"{Color.LR}Unable to Access Server 🐉 {Color.LR}" + url)
-						print (f"{Color.LR}Unable to Access Server 🐉 {Color.LR}" + url)
+						print (f"{Color.LR}Unable to Access Server {Color.LR}" + url)
+						print (f"{Color.LR}Unable to Access Server {Color.LR}" + url)
+						print (f"{Color.LR}Unable to Access Server {Color.LR}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -191,7 +191,7 @@ def main():
 
 
 if __name__ == '__main__':
-	commands = f"""HOME: Quay Lại Trang Đầu\nREFRESH: Làm Mới Menu\nCLEAN: Xoá Tất Cả\nEXIT: Thoát\nSTOP: Ngừng DDoS\nCONTACT: Contact/Hỗ Trợ"""
-	contact = f"""tele jfrv17\nZalo: 0564682944"""
+	commands = f"""HOME: Quay Lại Trang Đầu\nREFRESH: F5 Menu\nCLEAN: Xoá Tất Cả\nEXIT: OUT\nSTOP: STOP DDoS\nCONTACT: Contact/Support"""
+	contact = f"""tele jfrv17\nwtf:8888"""
 	NAT_Tool = Home(commands, contact)
 	main()
