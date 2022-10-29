@@ -104,16 +104,16 @@ class Home:
                     url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
                     floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
                     for i in range(200):
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
+                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
                         time.sleep(0.02)
                     with open("nat/http.txt", 'w') as p:
                         p.write(httpx.get(http_proxy).text)
