@@ -111,9 +111,6 @@ class Home:
                         print (f"{Color.LR}Server Error Can Access Website Lost Connection
                         print (f"{Color.LR}Server Error Can Access Website Lost Connection
                         print (f"{Color.LR}Server Error Can Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
-                        print (f"{Color.LR}Server Error Can Access Website Lost Connection
                         time.sleep(0.01)
                     with open("nat/http.txt", 'w') as p:
                         p.write(httpx.get(http_proxy).text)
