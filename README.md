@@ -1,4 +1,4 @@
-<h1 align="center"> JWKFRV17 </h1>
+<h1 align="center"> JWKFRV17 ( DDoS )</h1>
 <em><h5 align="center">(Language: Python, Shell)</h5></em>
   
 <p align="center"><img src="https://i.imgur.com/E2xHJTq.jpg" width="600" height="200" alt="Script"></p>
