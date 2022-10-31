@@ -13,6 +13,7 @@
 # Setup
 
 * Google Cloud Shell Editor
+* https://shell.cloud.google.com/?fromcloudshell=true&show=termina&pli=1
 
 * ```git clone https://github.com/jfrv17/NAT.git```
 * ```cd NAT```
