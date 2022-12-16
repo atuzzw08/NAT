@@ -85,7 +85,8 @@ class Home:
 					for i in range(200):
 						print (f"{Color.LB}cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc {Color.LR}" + url)
 						print (f"{Color.LB}cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc {Color.LR}" + url)
-						print (f"{Color.LB} cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc {Color.LR}" + url)
+						print (f"{Color.LB}cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc {Color.LR}" + url)
+                                                print (f"{Color.LB}cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc {Color.LR}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
