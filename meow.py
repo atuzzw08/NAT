@@ -67,10 +67,10 @@ class Home:
                          
      © Developer cc!? (onlymeow) no copyright by nat.zZ
 """)
-		print(Color.LR+"["+Color.LB+"01"+Color.LR+"]"+Color.LY+" SOCKET")
-		print(Color.LR+"["+Color.LY+"02"+Color.LR+"]"+Color.LG+" GET FLOOD")
-		print(Color.LR+"["+Color.LC+"03"+Color.LR+"]"+Color.LB+" HTTP GET")
-		print(Color.LR+"["+Color.LG+"04"+Color.LY+"]"+Color.LR+" BYPASS L7")
+		print(Color.LR+"["+Color.LB+"01"+Color.LR+"]"+Color.LR+" SOCKET 9999")
+		print(Color.LR+"["+Color.LY+"02"+Color.LR+"]"+Color.LR+" GET FLOOD")
+		print(Color.LR+"["+Color.LC+"03"+Color.LR+"]"+Color.LR+" HTTP GET")
+		print(Color.LR+"["+Color.LG+"04"+Color.LY+"]"+Color.LR+" BYPASS VIP")
 		print(Color.LR+"["+Color.LR+"00"+Color.LB+"]"+Color.LR+" OUT")
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
