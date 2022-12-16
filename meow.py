@@ -44,30 +44,28 @@ class Home:
 				time.sleep(1)
 
 	def home(self): 
-		print(f"""{Color.LB}
+		print(f"""{Color.LR}
 
 
-    .---.                                                                           __      _________  
-    |   |                                                                      ...-'  |`.  /         | 
-    '---'                 .                                   .----.     .----.|      |  |'-----.   .' 
-    .---.      _     _  .'|                        _.._        \    \   /    / ....   |  |    .'  .'   
-    |   |/\    \\   //.'  |                      .' .._|.-,.--. '   '. /'   /    -|   |  |  .'  .'     
-    |   |`\\  //\\ //<    |                      | '    |  .-. ||    |'    /      |   |  |.'  .'       
-    |   |  \`//  \'/  |   | ____               __| |__  | |  | ||    ||    |   ...'   `--'---'         
-    |   |   \|   |/   |   | \ .'              |__   __| | |  | |'.   `'   .'   |         |`.           
-    |   |    '        |   |/  .                  | |    | |  '-  \        /    ` --------\ |           
-    |   |             |    /\  \                 | |    | |       \      /      `---------'            
- __.'   '             |   |  \  \                | |    | |        '----'                              
-|      '              '    \  \  \               | |    |_|                                            
-|____.'              '------'  '---'             |_|                                                   
+              
+ ▒█████   ███▄    █  ██▓   ▓██   ██▓    ███▄ ▄███▓▓█████  ▒█████   █     █░   ▓█████▄ ▓█████▄  ▒█████    ██████ 
+▒██▒  ██▒ ██ ▀█   █ ▓██▒    ▒██  ██▒   ▓██▒▀█▀ ██▒▓█   ▀ ▒██▒  ██▒▓█░ █ ░█░   ▒██▀ ██▌▒██▀ ██▌▒██▒  ██▒▒██    ▒ 
+▒██░  ██▒▓██  ▀█ ██▒▒██░     ▒██ ██░   ▓██    ▓██░▒███   ▒██░  ██▒▒█░ █ ░█    ░██   █▌░██   █▌▒██░  ██▒░ ▓██▄   
+▒██   ██░▓██▒  ▐▌██▒▒██░     ░ ▐██▓░   ▒██    ▒██ ▒▓█  ▄ ▒██   ██░░█░ █ ░█    ░▓█▄   ▌░▓█▄   ▌▒██   ██░  ▒   ██▒
+░ ████▓▒░▒██░   ▓██░░██████▒ ░ ██▒▓░   ▒██▒   ░██▒░▒████▒░ ████▓▒░░░██▒██▓    ░▒████▓ ░▒████▓ ░ ████▓▒░▒██████▒▒
+░ ▒░▒░▒░ ░ ▒░   ▒ ▒ ░ ▒░▓  ░  ██▒▒▒    ░ ▒░   ░  ░░░ ▒░ ░░ ▒░▒░▒░ ░ ▓░▒ ▒      ▒▒▓  ▒  ▒▒▓  ▒ ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░
+  ░ ▒ ▒░ ░ ░░   ░ ▒░░ ░ ▒  ░▓██ ░▒░    ░  ░      ░ ░ ░  ░  ░ ▒ ▒░   ▒ ░ ░      ░ ▒  ▒  ░ ▒  ▒   ░ ▒ ▒░ ░ ░▒  ░ ░
+░ ░ ░ ▒     ░   ░ ░   ░ ░   ▒ ▒ ░░     ░      ░      ░   ░ ░ ░ ▒    ░   ░      ░ ░  ░  ░ ░  ░ ░ ░ ░ ▒  ░  ░  ░  
+    ░ ░           ░     ░  ░░ ░               ░      ░  ░    ░ ░      ░          ░       ░        ░ ░        ░  
+                            ░ ░                                                ░       ░                        
             ══╦═════════════════════════════════╦══
     ╔═════════╩═════════════════════════════════╩═════════╗
-    ║      Welcome To The My jwkfrv17  ❣️                 🤍
+    ║      Welcome To The My Onlymeow  ☠️                 ║ 🎶
     ║                                                     ║
-    ║        Contact / Tele jfrv17                        ║
+    ║        Contact / Tele tdzvpbq                       ║
     ╚═════════════════════════════════════════════════════╝              
                          
-     © Developer Nguyễn Anh Tú
+     © Developer cc!? (onlymeow) no copyright by nat.zZ
 """)
 		print(Color.LR+"["+Color.LB+"01"+Color.LR+"]"+Color.LY+" SOCKET")
 		print(Color.LR+"["+Color.LY+"02"+Color.LR+"]"+Color.LG+" GET FLOOD")
@@ -99,9 +97,9 @@ class Home:
 					url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LR}Unable to Access Server {Color.LR}" + url)
-						print (f"{Color.LR}Unable to Access Server {Color.LR}" + url)
-						print (f"{Color.LR}Unable to Access Server {Color.LR}" + url)
+						print (f"{Color.LR}Unable to Access Server Eror {Color.LR}" + url)
+						print (f"{Color.LR}Unable to Access Server Eror {Color.LR}" + url)
+						print (f"{Color.LR}Unable to Access Server Eror {Color.LR}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -113,9 +111,9 @@ class Home:
 					url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LY}Starting DDos ➠ {Color.LG}" + url)
-						print (f"{Color.LY}Starting DDos ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Starting DDos ➠ {Color.LY}" + url)
+						print (f"{Color.LY}Eror Eror Eror Eror Eror Eror MAXXXXXXXXXXXXXXXXXXXXXXXXX Eror Eror DDos {Color.LR}" + url)
+						print (f"{Color.LY} Eror Eror Eror Eror Eror Eror MAXXXXXXXXXXXXXXXXXXXXXXXXX Eror Eror DDos {Color.LR}" + url)
+						print (f"{Color.LY} Eror Eror Eror Eror Eror Eror MAXXXXXXXXXXXXXXXXXXXXXXXXX Eror Eror DDos {Color.LR}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -127,9 +125,9 @@ class Home:
 					url = str(input(f"{Color.LG} ⤻ URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} ⤻ Time: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Die Die Die Die ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Die Die Die Die ➠ {Color.LR}" + url)
-						print (f"{Color.LG}Die Die Die Die ➠ {Color.LY}" + url)
+						print (f"{Color.LR}Max Sever Eror xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {Color.LR}" + url)
+						print (f"{Color.LR} Max Sever Eror xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {Color.LR}" + url)
+						print (f"{Color.LR} Max Sever Eror xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {Color.LR}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
@@ -191,7 +189,7 @@ def main():
 
 
 if __name__ == '__main__':
-	commands = f"""HOME: Quay Lại Trang Đầu\nREFRESH: F5 Menu\nCLEAN: Xoá Tất Cả\nEXIT: OUT\nSTOP: STOP DDoS\nCONTACT: Contact/Support"""
-	contact = f"""tele jfrv17\nwtf:8888"""
+	commands = f"""HOME: Home\nREFRESH: F5 Menu\nCLEAN: Delete\nEXIT: OUT\nSTOP: STOP DDoS\nCONTACT: Contact/Support"""
+	contact = f"""tele tdzvpbq\nwtf:9999"""
 	NAT_Tool = Home(commands, contact)
 	main()
