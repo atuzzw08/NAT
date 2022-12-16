@@ -83,9 +83,9 @@ class Home:
 					floodtime = int(input(f"{Color.LG} cc Time: "+Color.RESET))
 					reqs = int(input(f"{Color.LG} cc Reqs: "+Color.RESET))
 					for i in range(200):
-						print (f"{Color.LG}Starting Attack To ➠ {Color.LG}" + url)
-						print (f"{Color.LR}Starting Attack To ➠ {Color.LR}" + url)
-						print (f"{Color.LY}Starting Attack To ➠ {Color.LR}" + url)
+						print (f"{Color.LB}cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc {Color.LR}" + url)
+						print (f"{Color.LB}cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc {Color.LR}" + url)
+						print (f"{Color.LB} cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc {Color.LR}" + url)
 						time.sleep(0.01)
 					with open("nat/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
