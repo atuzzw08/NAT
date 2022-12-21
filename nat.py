@@ -67,8 +67,8 @@ class Home:
                          
      © Developer cc!? (onlymeow) no copyright by nat.zZ
 """)
-		print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LB+" Layer4")
-        print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LY+" Socket")
+        print(Color.LY+"["+Color.LC+"01"+Color.LR+"]"+Color.LB+" Layer4")
+        print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" Socket")
         print(Color.LG+"["+Color.LY+"03"+Color.LR+"]"+Color.LB+" Food")
         print(Color.LR+"["+Color.LR+"04"+Color.LR+"]"+Color.LG+" ByPass")
         print(Color.LY+"["+Color.LB+"00"+Color.LR+"]"+Color.LC+" OUT")
